@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.monlanding{
+    height: 100vh;
+    background-image: url('images/fond.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.manavbar {
+    background-color: rgb(255, 0, 0);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zones {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.zone1{
+    width: 50%;
+
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.zone2{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formconnect {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentlanding {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contentlanding>h2 {
+    color: white;
+    background-color: rgba(109, 108, 108, 0.404);
+}
+
+.miniatures {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.miniatures>img {
+    height: 250px;
+    width: auto;
+}
+
+.btnlanding {
+    text-transform: uppercase;
+}
+
+.containcards {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.statistiques {
+    background-color: rgb(224, 224, 224);
+    margin-top: 40px;
+}
+
+.containblocs {
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    align-items: center;
+}
+
+.blocsstats {
+    background-color: white;
+    border: 1px grey solid;
+    border-radius: 3%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textstat {
+    text-align: center;
+}
+
+.chiffre {
+    font-size: 5em;
+    text-align: center;
+}
+ .containbarres {
+     width: 100%;
+    display: flex;
+    justify-content: center;
+ }
+
+ .containtext {
+     margin-top: 40px;
+     text-align: center;
+     width: 50%;
+ }
+
+ .containcontain {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .market {
+     margin-top: 40px;
+ }
+
+ .titre, .copyright {
+     text-align: center;
+ }
+
+ .blocstexte {
+    display: flex;
+
+ }
+
+ .containblocstexte {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+
+.edf {
+    width: 215px;
+    height: auto;
+}
+
+.bloc1 {
+    display: flex;
+}
+
+.blocsss {
+    font-size: 1.5em;
+    margin: 25px;
+}
+
+.icones>img {
+    width: 100px;
+    height: auto;
+}
+
+.icones {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.containicones {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+}
